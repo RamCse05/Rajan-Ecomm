@@ -40,4 +40,4 @@ steps:
         docker pull ${{ secrets.DOCKER_USERNAME }}/ecomm-frontend:latest
         cd ~/E-Comm
         docker compose up -d
-```
+
